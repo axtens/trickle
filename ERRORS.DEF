@@ -1,0 +1,11 @@
+DEFINITION MODULE ERRORs;
+TYPE
+        ErrorClass = (LabelSpace, LineSpace, VarSpace, VarSet, SetExecute, SetStatus);
+VAR
+        Err : SET OF ErrorClass;
+
+PROCEDURE Error( ErrNum : ErrorClass; severity : CARDINAL);
+
+END ERRORs.
+                      
+

@@ -1,0 +1,4 @@
+        VAR ENVAR ""
+        INPUT "SYMBOL: " ENVAR
+        VAR ENVAR SYS ENVAR &'VAR ENVAR'
+        NOTIFY &'VAR ENVAR'

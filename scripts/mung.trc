@@ -1,0 +1,4 @@
+notify "Mung Until No Good"
+invoke "TRickle.exe" "mung"
+halt No Good
+

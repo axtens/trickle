@@ -1,0 +1,8 @@
+DEFINITION MODULE BigFile;
+(*$L+*)
+
+FROM FileSystem IMPORT File;
+
+PROCEDURE BigRead( VAR buf : INTEGER; VAR InString : ARRAY OF CHAR) : BOOLEAN;
+END BigFile.
+

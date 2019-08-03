@@ -1,0 +1,5 @@
+  CLS
+  VAR A SYS CLVAR 2
+  SHELL "&'VAR A'"
+  HALT
+

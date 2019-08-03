@@ -1,0 +1,18 @@
+DEFINITION MODULE Commands;
+(*$L+*)
+CONST
+        TotalTokens = 36;
+TYPE
+        tokentype =
+              (  rem, invoke, pause, mkdir, rmdir, chdir, endif, append,
+                 delete, cls, notify, reboot, create, label, goto, yesno,
+                 var, verify, else, incvar, decvar, input, shell, box, showxy,
+                 gotoxy, range, wipe, halt, exists, userbreak, beep, wait,
+                 getchar, putchar, if, notknown );
+VAR
+        tokens : SET OF tokentype;
+
+PROCEDURE TokenNumber( token : ARRAY OF CHAR) : tokentype;
+
+END Commands.
+
